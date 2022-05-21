@@ -25,7 +25,7 @@
         flex-direction: column;
         align-items: center;
 
-        background: url('images/background.svg') no-repeat center center fixed;
+        background: url('/images/background.svg') no-repeat center center fixed;
         background-size: cover;
 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
