@@ -1,0 +1,31 @@
+{
+    "include": ["src/**/*", "webpack.config.ts"],
+    "exclude": ["node_modules/*", ".svelte_kit/*", "public/*", "dist/*"],
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "es2017",
+        "module": "es2020",
+        "importsNotUsedAsValues": "remove",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "strict": false,
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": ["src/pages/*"],
+            "@components/*": ["src/components/*"],
+            "@lib/*": ["src/lib/*"],
+            "@utils/*": ["src/utils/*"],
+            "@styles/*": ["src/styles/*"]
+        },
+        "types": [
+            "svelte",
+            "svelte/store",
+            "svelte/motion",
+            "svelte/transition",
+            "svelte/animate",
+            "svelte/easing"
+        ]
+    }
+}
