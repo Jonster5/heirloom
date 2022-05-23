@@ -1,28 +1,6 @@
-# TCF Svelte Standard Template
+# Genealogy Project
 
-## Initialize your project
+Look in the `src` folder to see the actual code
 
-Run
-
-`git clone https://github.com/Jonster5/svelte-template.git`
-
-Or
-
-`npx degit https://github.com/Jonster5/svelte-template.git`
-
-Then enter the directory the project is in and run
-
-`npm install`
-
-Or 
-
-`yarn`
-
-## Start Developing
-
-`npm run dev`
-
-Or
-
-`yarn dev`
-
+look in `public/images` to see the background images I used, 
+and in `public/text` to see all of the text.
