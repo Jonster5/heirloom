@@ -1,0 +1,24 @@
+$d: 1; // density
+$w: 600; // grid size
+$s: 0.5s; // speed
+
+// Generate the snow image using radial gradients
+$grad: ();
+@for $i from 0 to $d {
+    $v: random(4) + 2;
+    $a: random(5) * 0.1 + 0.5;
+    $grad: $grad,
+        radial-gradient(
+            $v +
+                px
+                $v +
+                px
+                at
+                (random($w - $v * 2) + $v) +
+                px
+                (random($w - $v * 2) + $v) +
+                px,
+            rgba(20, 20, 255, $a) 50%,
+            rgba(0, 0, 0, 0)
+        ) !global;
+}

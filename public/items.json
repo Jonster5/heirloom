@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Tin Changes Bolivia",
+        "timePeriod": "1899",
+
+        "bgImage": "tinmines.avif",
+
+        "text": "tinmines.txt"
+    },
+    {
+        "title": "The MNR and FSTMB Are Founded",
+        "timePeriod": "1942 - 1944",
+
+        "bgImage": "founder.png",
+
+        "text": "founder.txt",
+
+        "brightness": 30
+    },
+    {
+        "title": "The Miners Revolt",
+        "timePeriod": "1952",
+
+        "bgImage": "revolution.jpg",
+
+        "text": "revolution.txt"
+    },
+    {
+        "title": "Radical Changes",
+        "timePeriod": "1952 - 1959",
+
+        "bgImage": "changes.webp",
+
+        "text": "changes.txt"
+    },
+    {
+        "title": "Exiled",
+        "timePeriod": "1960",
+
+        "bgImage": "exiled.jpg",
+
+        "text": "exiled.txt"
+    },
+    {
+        "title": "Collapse of the MNR",
+        "timePeriod": "1964",
+
+        "bgImage": "collapse.jpg",
+
+        "text": "collapse.txt"
+    }
+]
